@@ -1,0 +1,275 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.WebApi\\BlogApp.WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\BlogApp.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\BlogApp.Application.csproj",
+        "projectName": "BlogApp.Application",
+        "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\BlogApp.Application.csproj",
+        "packagesPath": "C:\\Users\\diwakar\\.nuget\\packages\\",
+        "outputPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diwakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+                "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj",
+        "projectName": "BlogApp.Domain",
+        "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\diwakar\\.nuget\\packages\\",
+        "outputPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diwakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj",
+        "projectName": "BlogApp.Infrastructure",
+        "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\diwakar\\.nuget\\packages\\",
+        "outputPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diwakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+                "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.WebApi\\BlogApp.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.WebApi\\BlogApp.WebApi.csproj",
+        "projectName": "BlogApp.WebApi",
+        "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.WebApi\\BlogApp.WebApi.csproj",
+        "packagesPath": "C:\\Users\\diwakar\\.nuget\\packages\\",
+        "outputPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\diwakar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\BlogApp.Application.csproj": {
+                "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\BlogApp.Application.csproj"
+              },
+              "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj": {
+                "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Domain\\BlogApp.Domain.csproj"
+              },
+              "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj": {
+                "projectPath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Infrastructure\\BlogApp.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

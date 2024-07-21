@@ -9,3 +9,4 @@ D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\refint\BlogApp.Domain.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.pdb
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\ref\BlogApp.Domain.dll
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.sourcelink.json

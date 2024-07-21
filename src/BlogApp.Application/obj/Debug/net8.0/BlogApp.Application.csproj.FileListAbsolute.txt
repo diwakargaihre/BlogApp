@@ -13,3 +13,4 @@ D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Application\obj\Debug\net8.0\Bl
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Application\obj\Debug\net8.0\refint\BlogApp.Application.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.pdb
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Application\obj\Debug\net8.0\ref\BlogApp.Application.dll
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Application\obj\Debug\net8.0\BlogApp.Application.sourcelink.json

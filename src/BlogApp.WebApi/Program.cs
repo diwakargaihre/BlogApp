@@ -1,5 +1,9 @@
 using BlogApp.Application.Interfaces;
 using BlogApp.Application.Services;
+using BlogApp.Domain.Repositories;
+using BlogApp.Infrastructure.Data;
+using BlogApp.Infrastructure.Repositories;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +16,16 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IBlogPostService, BlogPostService>();
+
+// Add repository services
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
+builder.Services.AddScoped<ICommentRepository,CommentRepository>();
+builder.Services.AddScoped<ITagRepository, TagRepository>();
+
+// Add DbContext
+builder.Services.AddDbContext<BlogAppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 

@@ -5,8 +5,8 @@ D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.AssemblyInfoInputs.cache
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.AssemblyInfo.cs
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.csproj.CoreCompileInputs.cache
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.sourcelink.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\refint\BlogApp.Domain.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.pdb
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\ref\BlogApp.Domain.dll
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.Domain\obj\Debug\net8.0\BlogApp.Domain.sourcelink.json

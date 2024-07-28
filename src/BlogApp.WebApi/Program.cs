@@ -3,6 +3,7 @@ using BlogApp.Application.Services;
 using BlogApp.Domain.Repositories;
 using BlogApp.Infrastructure.Data;
 using BlogApp.Infrastructure.Repositories;
+using BlogApp.WebApi;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -23,9 +24,14 @@ builder.Services.AddScoped<IBlogPostRepository, BlogPostRepository>();
 builder.Services.AddScoped<ICommentRepository,CommentRepository>();
 builder.Services.AddScoped<ITagRepository, TagRepository>();
 
+// Add AutoMapper
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 // Add DbContext
 builder.Services.AddDbContext<BlogAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
+
 
 var app = builder.Build();
 

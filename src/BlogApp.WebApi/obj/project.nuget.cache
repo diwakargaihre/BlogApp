@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "/ThCp1tC/AMHD24bP6on0kTN3OmWEdm8Ms2NU5rirnXUN6E6hGxOO2Mqc0Vt18842L6GUp2fScaamKQspFUBcA==",
+  "dgSpecHash": "+aLUNL94ZMk2+t6Obh82t43LS5yBEZkyxzIKRZ85AUysUtWDaVDnGeb8GtVIiCFFji6nzm33y6kKv1cOep4xSw==",
   "success": true,
   "projectFilePath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.WebApi\\BlogApp.WebApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\diwakar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\diwakar\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\diwakar\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\diwakar\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

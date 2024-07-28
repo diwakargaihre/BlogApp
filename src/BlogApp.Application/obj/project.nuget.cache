@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "EciqqIqMHPzuTRF7VjlSUUm1Q4rBiR415eVOJxnnb//UTbNi7jPHP7IwaJSNNnR2UzEWjls+TcZbnWcGIWvhJQ==",
+  "dgSpecHash": "pWA9gR7AF6yhTwKFz0EOc/SJYAmuOVBfEkeo7+QRFDrydCzX1YR+3Drby/w58GGdgcF5ht2RnJ7hWzdWXT2u2w==",
   "success": true,
   "projectFilePath": "D:\\Diwakar\\Personal\\Projects\\BlogApp\\src\\BlogApp.Application\\BlogApp.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\diwakar\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\diwakar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\diwakar\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\diwakar\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\diwakar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

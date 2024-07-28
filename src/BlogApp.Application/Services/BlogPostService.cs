@@ -1,3 +1,4 @@
+using AutoMapper;
 using BlogApp.Application.DTO;
 using BlogApp.Application.Interfaces;
 using BlogApp.Domain.Entities;
@@ -8,47 +9,29 @@ namespace BlogApp.Application.Services
     public class BlogPostService : IBlogPostService
     {
         private readonly IBlogPostRepository _blogPostRepository;
+        private readonly IMapper _mapper;
 
-        public BlogPostService(IBlogPostRepository blogPostRepository)
+        public BlogPostService(IBlogPostRepository blogPostRepository, IMapper mapper)
         {
             _blogPostRepository = blogPostRepository;
+            _mapper = mapper;
         }
 
         public async Task<BlogPostDto> GetBlogPostByIdAsync(int id)
         {
             var blogPost = await _blogPostRepository.GetByIdAsync(id);
-            return new BlogPostDto
-            {
-                Id = blogPost.Id,
-                Title = blogPost.Title,
-                Content = blogPost.Content,
-                PublishedDate = blogPost.PublishedDate,
-                UserId = blogPost.UserId
-            };
+            return _mapper.Map<BlogPostDto>(blogPost);
         }
 
         public async Task<IEnumerable<BlogPostDto>> GetAllBlogPostsAsync()
         {
             var blogPosts = await _blogPostRepository.GetAllAsync();
-            return blogPosts.Select(blogPost => new BlogPostDto
-            {
-                Id = blogPost.Id,
-                Title = blogPost.Title,
-                Content = blogPost.Content,
-                PublishedDate = blogPost.PublishedDate,
-                UserId = blogPost.UserId
-            });
+            return _mapper.Map<IEnumerable<BlogPostDto>>(blogPosts);
         }
 
         public async Task AddBlogPostAsync(BlogPostDto blogPostDto)
         {
-            var blogPost = new BlogPost
-            {
-                Title = blogPostDto.Title,
-                Content = blogPostDto.Content,
-                PublishedDate = blogPostDto.PublishedDate,
-                UserId = blogPostDto.UserId
-            };
+            var blogPost = _mapper.Map<BlogPost>(blogPostDto);
             await _blogPostRepository.AddAsync(blogPost);
         }
 
@@ -57,9 +40,7 @@ namespace BlogApp.Application.Services
             var blogPost = await _blogPostRepository.GetByIdAsync(blogPostDto.Id);
             if (blogPost != null)
             {
-                blogPost.Title = blogPostDto.Title;
-                blogPost.Content = blogPostDto.Content;
-                blogPost.PublishedDate = blogPostDto.PublishedDate;
+                _mapper.Map(blogPostDto, blogPost);
                 _blogPostRepository.Update(blogPost);
             }
         }

@@ -1,3 +1,4 @@
+using AutoMapper;
 using BlogApp.Application.DTO;
 using BlogApp.Application.Interfaces;
 using BlogApp.Domain.Entities;
@@ -8,42 +9,30 @@ namespace BlogApp.Application.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
+        private readonly IMapper _mapper;
 
-        public UserService(IUserRepository userRepository)
+        public UserService(IUserRepository userRepository, IMapper mapper)
         {
             _userRepository = userRepository;
+            _mapper = mapper;
         }
 
         public async Task<UserDto> GetUserByIdAsync(int id)
         {
             var user = await _userRepository.GetByIdAsync(id);
-            return new UserDto
-            {
-                Id = user.Id,
-                UserName = user.UserName,
-                Email = user.Email
-            };
+            return _mapper.Map<UserDto>(user);
         }
 
         public async Task<IEnumerable<UserDto>> GetAllUsersAsync()
         {
             var users = await _userRepository.GetAllAsync();
-            return users.Select(user => new UserDto
-            {
-                Id = user.Id,
-                UserName = user.UserName,
-                Email = user.Email
-            });
+            return _mapper.Map<IEnumerable<UserDto>>(users);
         }
 
         public async Task AddUserAsync(UserDto userDto)
         {
-            var user = new User
-            {
-                UserName = userDto.UserName,
-                Email = userDto.Email,
-                PasswordHash = "" // Hash the password in a real application
-            };
+            var user = _mapper.Map<User>(userDto);
+            user.PasswordHash = ""; // Hash the password in a real application
             await _userRepository.AddAsync(user);
         }
 
@@ -52,8 +41,7 @@ namespace BlogApp.Application.Services
             var user = await _userRepository.GetByIdAsync(userDto.Id);
             if (user != null)
             {
-                user.UserName = userDto.UserName;
-                user.Email = userDto.Email;
+                _mapper.Map(userDto, user);
                 _userRepository.Update(user);
             }
         }

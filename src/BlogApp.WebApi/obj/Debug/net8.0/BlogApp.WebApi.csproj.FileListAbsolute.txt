@@ -1,11 +1,3 @@
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.csproj.AssemblyReference.cache
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.GeneratedMSBuildEditorConfig.editorconfig
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.AssemblyInfoInputs.cache
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.AssemblyInfo.cs
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.csproj.CoreCompileInputs.cache
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.MvcApplicationPartsAssemblyInfo.cs
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.MvcApplicationPartsAssemblyInfo.cache
-D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.sourcelink.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\appsettings.Development.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\appsettings.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.WebApi.exe
@@ -13,6 +5,7 @@ D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.WebApi.runtimeconfig.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.WebApi.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.WebApi.pdb
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\AutoMapper.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\Azure.Core.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\Azure.Identity.dll
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\Humanizer.dll
@@ -128,6 +121,14 @@ D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.Application.pdb
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.Infrastructure.pdb
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\bin\Debug\net8.0\BlogApp.Domain.pdb
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.csproj.AssemblyReference.cache
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.AssemblyInfoInputs.cache
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.AssemblyInfo.cs
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.csproj.CoreCompileInputs.cache
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\BlogApp.WebApi.sourcelink.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\staticwebassets.build.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\staticwebassets.development.json
 D:\Diwakar\Personal\Projects\BlogApp\src\BlogApp.WebApi\obj\Debug\net8.0\staticwebassets\msbuild.BlogApp.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
